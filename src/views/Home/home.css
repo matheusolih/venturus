@@ -1,0 +1,44 @@
+.local-card {
+  height: 100%;
+
+  background: var(--white);
+  border-radius: 5px;
+  box-shadow: 10px 0px 106px -52px rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.card-title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-title img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container section {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-content: center;
+}
+
+.card-geral {
+  padding-top: 20px;
+}
+
+tr:hover {
+  color: #913484;
+}
+
+.container input {
+  margin: 8px;
+}
